@@ -1,0 +1,3 @@
+.iframe-container{position: relative;}
+.iframe-container iframe{position: fixed;width: 230px;right: 3%;bottom: 420px;}
+@media (max-width: 760px){.iframe-container{height: 230px;}.iframe-container iframe{position: relative;width: 100%;top: 0px;left: 0px;}}
