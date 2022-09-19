@@ -1,6 +1,7 @@
 setInterval(function() {
-  document.body.innerHTML="发生错误，请重试！"
+  document.body.innerHTML="发生错误，请重试！";
   console.clear();
+  alert("发生错误，请重试！")
   check();
 }, 2000);
 var check = function() {
