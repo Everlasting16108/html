@@ -1,7 +1,7 @@
 function JumpBlues(url) {
 	var E = new DPlayer({
 // 		container: document.getElementById("dplayer4"),
-		container: document.querySelectorAll("[id^='dplayer?$']")
+		container: document.querySelectorAll("[id^='dplayer?']")
 		loop: "yes",
 		screenshot: "yes",
 		video: {
